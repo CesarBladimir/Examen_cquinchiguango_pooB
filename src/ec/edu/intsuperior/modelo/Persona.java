@@ -10,5 +10,16 @@ package ec.edu.intsuperior.modelo;
  * @author Windows 10
  */
 public class Persona {
-    
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   public String nombre;
+   
 }
