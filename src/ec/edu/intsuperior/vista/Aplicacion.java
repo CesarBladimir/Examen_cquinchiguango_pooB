@@ -27,23 +27,23 @@ public class Aplicacion {
     String nombre=JOptionPane.showInputDialog("Nombre del trabajador");
     String profesion=JOptionPane.showInputDialog("Profesion");
     
-int dt=Integer.parseInt(JOptionPane.showInputDialog("Dias trabajados"));
+int dl=Integer.parseInt(JOptionPane.showInputDialog("Dias Laborados"));
 double pd=Double.parseDouble(JOptionPane.showInputDialog("Pago por dia"));
      
      double sb=0,aux;
 
  //Para conocer el salario bruto
-        if(dt>30){
+        if(dl>30){
             double tn=15*pd;
            
             double sx=(pd*15);
             sb=sx+tn;
         }else{
-            sb=dt*pd;
+            sb=dl*pd;
         }
      JOptionPane.showMessageDialog(null,"Trabajador: "+nombre+"\n"
              + "Profesion: "+profesion+"\n"
-                     +"Dias trabajdos: "+dt+"\n"
+                     +"Dias trabajdos: "+dl+"\n"
              + "Sueldo bruto: "+sb+"\n");
         
    } 
